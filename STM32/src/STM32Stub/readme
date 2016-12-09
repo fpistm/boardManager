@@ -1,0 +1,13 @@
+Stub for STM32 based boards.
+This allow to install tools and use STM32 cores repositories.
+To do this:
+1 - create a "STM" directory to {Arduino path}/hardware/
+2 - clone the core repo to this directory. ex:
+git clone https://github.com/stm32duino/Arduino_Core_STM32F1.git STM32F1
+
+At this step you could build sketch for the board selected.
+In order to be able to upload the board, it is required to clone the 
+"Arduino_Tools" repo to this directory:
+{local Arduino path}/packages/STM32/tools/STM32Tools/1.0
+
+git clone https://github.com/stm32duino/Arduino_Tools.git tools
