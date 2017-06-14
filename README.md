@@ -21,11 +21,11 @@ install the "**STM32 Stub Boards**"
 3- Go to the local Arduino directory:
 The location is displayed in the preferences dialog. It should be:
 
-    * /Users/\<USERNAME\>/Library/Arduino15/ _(Mac)_
-    * c:\Documents and Settings\\<USERNAME\>\Application Data\Arduino15\ _(Windows XP)_
-    * c:\Users\\<USERNAME\>\AppData\Roaming\Arduino15\ _(Windows Vista)_
-    * c:\Users\\<USERNAME\>\AppData\Local\Arduino15\ _(Windows 7)_
-    * ~/.arduino15/ _(Linux)_
+    * /Users/\<USERNAME\>/Library/Arduino15/ (Mac)
+    * c:\Documents and Settings\\<USERNAME\>\Application Data\Arduino15\ (Windows XP)
+    * c:\Users\\<USERNAME\>\AppData\Roaming\Arduino15\ (Windows Vista)
+    * c:\Users\\<USERNAME\>\AppData\Local\Arduino15\ (Windows 7)
+    * ~/.arduino15/ (Linux)
 
 Then go to "**packages/STM32/tools/STM32Tools/1.0/**" directory and clone or
 symlinks the STM32 tools git repository:
